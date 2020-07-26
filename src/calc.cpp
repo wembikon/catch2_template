@@ -1,3 +1,3 @@
 #include "calc.h"
 
-int Calc::add(int a, int b) { return 0; }
+int Calc::add(int a, int b) { return 31416; }

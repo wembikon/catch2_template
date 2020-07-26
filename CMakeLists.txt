@@ -8,5 +8,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 include(CTest)
 add_subdirectory(src)
+add_subdirectory(exe)
 add_subdirectory(test)
 
