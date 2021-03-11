@@ -24,6 +24,11 @@ when you start debugging.
 ##References:
 https://code.visualstudio.com/docs/cpp/config-clang-mac
 
+##Shorter version
+You just really have to open the folder that contains the root CMakeLists.txt
+then select kit `screw driver and wrench icon`, target `the Build gear button`
+and finally set the absolute executable path in the launch.json.
+
 ##Sample launch.json
 ```
 {
