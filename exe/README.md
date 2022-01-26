@@ -7,7 +7,17 @@
    * You can also just click the "wrench" icon on the taskbar to select a kit.
 3. On the command pallete - CMake: Select Variant - e.g. (Debug, Release etc.)
    * You can also just click the "exclamation mark" icon on the taskbar to choose a variant.
-4. On the command pallete - CMake: Build Target - choose a cmake target.
+4. On the command pallete - CMake: Configure - generate cmake.
+   * To specify the build folder and generator to use, you can either add the ff. on your
+     user settings or workspace settings.
+```JSON
+    "cmake.buildDirectory": "${workspaceFolder}/vsbuild",
+    "cmake.generator": "Ninja" or "Unix Makefiles,
+```
+   * Tip: To see what are the possible values for the generator, just set it to a wrong value,
+     like "make" then CMake: Configure. On the OUTPUT pane, you'll see a message for all
+     possible generator values.
+5. On the command pallete - CMake: Build Target - choose a cmake target.
    * You can also just click the text next to Build button on the taskbar to choose a target.
 
 ## Running
