@@ -11,8 +11,10 @@
    * To specify the build folder and generator to use, you can either add the ff. on your
      user settings or workspace settings.
 ```JSON
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "cmake.buildDirectory": "${workspaceFolder}/vsbuild",
     "cmake.generator": "Ninja" or "Unix Makefiles,
+    "cmake.cmakePath": "/usr/local/bin/cmake",
 ```
    * Tip: To see what are the possible values for the generator, just set it to a wrong value,
      like "make" then CMake: Configure. On the OUTPUT pane, you'll see a message for all
