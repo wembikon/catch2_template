@@ -2,7 +2,7 @@
 
 ## Building
 
-1. Open the room cmake folder
+1. Open the root cmake folder
 2. On the command pallete - CMake: Select a Kit - select your toolchain (e.g. Clang 12.x.x)
    * You can also just click the "wrench" icon on the taskbar to select a kit.
 3. On the command pallete - CMake: Select Variant - e.g. (Debug, Release etc.)
@@ -45,7 +45,7 @@
 There are basically 2 ways to run debug builds on VSCode.
 1. Using the taskbar's Bug Icon. This one uses the workspace settings.json for its settings
    like passing arguments (uses cmake.debugConfig created in Running section) etc.
-2. Using presets specified in the `${workspaceFolder}/.vscode/launch.json`. If you don't have
+2. Or by using presets specified in the `${workspaceFolder}/.vscode/launch.json`. If you don't have
    a launch.json yet, you can press the "Bug on a Triangle" icon to open up the debug pane,
    then press on the drop down with a Triangle icon on top of that pane, then press
    "Add Configuration". This will automatically create the launch.json file and will ask you
