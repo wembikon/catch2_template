@@ -45,8 +45,8 @@
 There are basically 2 ways to run debug builds on VSCode.
 1. Using the taskbar's Bug Icon. This one uses the workspace settings.json for its settings
    like passing arguments (uses cmake.debugConfig created in Running section) etc.
-2. Or by using presets specified in the `${workspaceFolder}/.vscode/launch.json`.
-   (See this [link](https://code.visualstudio.com/docs/cpp/launch-json-reference) for more information about launch.json) If you don't have
+2. Or by using presets specified in the `${workspaceFolder}/.vscode/launch.json`
+   (See this [link](https://code.visualstudio.com/docs/cpp/launch-json-reference) for more information about launch.json). If you don't have
    a launch.json yet, you can press the "Bug on a Triangle" icon to open up the debug pane,
    then press on the drop down with a Triangle icon on top of that pane, then press
    "Add Configuration". This will automatically create the launch.json file and will ask you
